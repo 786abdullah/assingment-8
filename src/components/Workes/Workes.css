@@ -1,0 +1,27 @@
+.works-main-container{
+    display: grid;
+    grid-template-columns:4fr 1fr;
+    
+    
+}
+.works-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px 10px;
+    
+}
+
+
+@media screen and (max-width:820px) {
+    .works-main-container{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        margin: 20px 10px;
+        
+    }
+    .works-container{
+        grid-template-columns: repeat(1,1fr);
+        font-size: 14px;
+    }
+
+}

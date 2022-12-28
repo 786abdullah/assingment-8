@@ -1,0 +1,36 @@
+h5{
+    margin: 5px;
+}
+.work-container{
+    margin-right: 20px;
+    border: 1px solid slateblue;
+    border-radius: 10px;
+    position: relative;
+}
+img{
+    width: 100%;
+    border-radius: 9px;
+    margin: 0px;
+}
+.work-details{
+    padding-bottom: 50px;
+     padding-right: 5px;
+    margin-left: 10px;
+}
+.btn-work{
+    width: 100%;
+   position:absolute;
+   bottom: 0px;
+   border-radius: 0px 0px 9px 9px ;
+   border: none;
+   font-size: 20px;
+   padding: 8px 0px;
+   
+}
+.btn-work:hover{
+    background-color: cornflowerblue;
+}
+
+.workname{
+    margin:0px;
+}

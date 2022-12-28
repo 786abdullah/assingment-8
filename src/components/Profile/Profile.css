@@ -1,0 +1,52 @@
+
+.profile-container{
+    background-color: aqua;
+    padding:10px 0px 10px 10px;
+    display: flex;
+    flex-direction:row;
+    border-radius: 9px;
+    
+ }
+
+
+.my-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+    border-radius:50%;
+    
+}
+.my-info{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-gap: 10px;
+    color:black;
+    font-weight: bold;
+   
+}
+p{
+    background-color: aliceblue;
+    margin-left: 0px;
+    border-radius: 15px;
+    padding:10px;
+}
+button{
+    padding: 10px 10px;
+    border-radius: 9px;
+    border: none;
+}
+h4{
+    background-color: aliceblue;
+    height: 30px;
+    padding-top: 10px;
+}
+.btn-finis{
+    padding: 10px 50px;
+    font-weight:bold;
+}
+.brack-time{
+    margin-left:10px;
+}
+.brack-time:hover{
+    background-color: rgb(166, 166, 209);
+}
